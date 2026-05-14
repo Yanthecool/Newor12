@@ -1,0 +1,38 @@
+# robots.txt for https://sllz.biz.id
+
+User-agent: *
+Allow: /
+
+# Block sensitive folders (optional)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+
+# Allow important assets
+Allow: /wp-content/uploads/
+Allow: /*.js$
+Allow: /*.css$
+
+# Crawl delay for aggressive bots (ignored by Google)
+Crawl-delay: 2
+
+# Sitemap
+Sitemap: https://sllz.biz.id/sitemap.xml
+
+# Specific Bots
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Optional: block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
